@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/general.css">
+    
+    <title>Portfolio Eva Sneijders</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="Images/Logo.png" alt="My logo" class="evaLogo"></a>
+            <ul class="navigatielijst">
+                <li class="navigatieItem"><a href="contactMe.html" class="active">Contact me</a></li>
+                <li class="navigatieItem"><a href="aboutMe.html">About me</a></li>
+                <li class="navigatieItem"><a href="projects.html">Projects</a></li>
+                <li class="navigatieItem"><a href="cv.html">CV</a></li>
+                <li class="navigatieItem"><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Contact me</h1>
+
+    <form action="mailto:evasneijders@hotmail.com">
+        <label for="name">Name/company name/alias</label>
+        <input type="text" id="name"> <br>
+        <label for="reason">The reason for contact</label>
+        <input type="text" id="reason"> <br>
+
+        <p>How do I contact you?</p>
+        <input type="radio" id="email" name="contactWay" value="email">
+        <label for="email">email</label> <br>
+        <input type="radio" id="socialMedia" name="contactWay" value="socialMedia">
+        <label for="socialMedia">Social media (specify which one)</label> <br>
+        <input type="radio" id="phone" name="contactWay" value="phone">
+        <label for="phone">Phone</label><br>
+        <input type="radio" id="other" name="contactWay" value="other">
+        <label for="other">Other (please specify)</label> <br>  
+
+        <label for="contactSpecs">Please specify and/or enter the address/tag/number</label>
+        <input type="text" id="contactSpecs"> <br>
+
+        <input type="submit" value="submit">
+    </form>
+
+    <footer>
+        <div class="container">
+            <div class="col-sm">
+                <p>Copyright @thomasmore, gemaakt door Sneijders Eva</p>
+            </div>
+            <div class="col-sm">
+                <p>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-tiktok"></i>
+                </p>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+
+</html>
